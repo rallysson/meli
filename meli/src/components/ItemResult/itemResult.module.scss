@@ -1,0 +1,46 @@
+.itemResult {
+  color: #333;
+  padding: 16px;
+  display: flex;
+  text-decoration: none;
+
+
+  .productPicture {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .itemDescriptionContainer {
+    padding-left: 16px;
+  }
+
+  .itemPriceContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
+  .iconFreeShipping {
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 16px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-top: 32px;
+    display: block;
+  }
+
+  .cityContainer {
+    align-items: center;
+    color: #999;
+  }
+
+}

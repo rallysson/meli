@@ -4,7 +4,7 @@ import "./grid.scss";
 
 interface Props {
   className?: string;
-  children: React.ReactChild | React.ReactChild[];
+  children: React.ReactChild | React.ReactChild[] | null;
 }
 
 function Row({ children, className = "" }: Props): ReactElement {

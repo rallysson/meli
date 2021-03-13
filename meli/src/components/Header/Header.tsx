@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 
+
 import Grid from "../Grid";
 import SearchInput from "../SearchInput";
 
@@ -9,7 +10,6 @@ import IconMeli from "../../assets/Logo_ML.png";
 import styles from "./header.module.scss";
 
 const { Row, Col } = Grid;
-console.log(styles);
 
 function Header(): ReactElement {
   return (
