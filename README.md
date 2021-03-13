@@ -1,4 +1,4 @@
-# Teste Mercado Pago
+# Meli
 
 Para rodar a aplicação é necessário rodar ambos api e frontend (pasta meli)
 
