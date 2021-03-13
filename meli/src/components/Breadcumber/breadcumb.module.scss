@@ -1,0 +1,10 @@
+.breadcrumb {
+  padding: 16px 0;
+
+  > div {
+    color: #999;
+    span:last-child {
+      font-weight: bold;
+    }
+  }
+}
